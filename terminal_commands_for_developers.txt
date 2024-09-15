@@ -1,0 +1,63 @@
+
+# Vanliga terminalkommandon för utvecklare
+
+## Navigering:
+1. **cd [katalog]** - Byt till en specifik katalog.
+2. **ls** - Lista filer och mappar i den aktuella katalogen.
+3. **pwd** - Visa den nuvarande katalogens sökväg.
+4. **cd ..** - Gå upp en nivå i katalogträdet.
+
+## Filhantering:
+5. **touch [filnamn]** - Skapa en tom fil.
+6. **cp [fil1] [fil2]** - Kopiera en fil.
+7. **mv [fil1] [fil2]** - Flytta eller döp om en fil.
+8. **rm [filnamn]** - Ta bort en fil.
+9. **mkdir [katalognamn]** - Skapa en ny katalog.
+10. **rmdir [katalognamn]** - Ta bort en tom katalog.
+11. **rm -r [katalognamn]** - Ta bort en katalog och dess innehåll rekursivt.
+
+## Fil- och textvisning:
+12. **cat [filnamn]** - Visa innehållet i en fil.
+13. **more [filnamn]** - Visa en fil en sida i taget.
+14. **less [filnamn]** - Visa en fil med möjlighet att bläddra både framåt och bakåt.
+15. **head [filnamn]** - Visa de första 10 raderna i en fil.
+16. **tail [filnamn]** - Visa de sista 10 raderna i en fil.
+
+## Filbehörigheter:
+17. **chmod [rättigheter] [fil]** - Ändra behörigheterna för en fil.
+18. **chown [användare]:[grupp] [fil]** - Ändra ägaren till en fil.
+
+## Systeminformation:
+19. **df** - Visa diskens användning.
+20. **du** - Visa storleken på filer och mappar.
+21. **top** - Visa de mest resurskrävande processerna.
+22. **ps** - Visa aktiva processer.
+23. **kill [process-ID]** - Döda en specifik process.
+
+## Nätverkskommandon:
+24. **ping [adress]** - Testa anslutningen till en specifik adress.
+25. **ifconfig** - Visa nätverkskonfiguration.
+26. **curl [URL]** - Gör en HTTP-begäran och visa innehållet på en webbsida.
+
+## Paketinstallation:
+27. **apt-get install [paketnamn]** - Installera ett paket (Ubuntu/Debian).
+28. **yum install [paketnamn]** - Installera ett paket (CentOS/Fedora).
+29. **npm install [paketnamn]** - Installera ett Node.js-paket.
+
+## Versionshantering med Git:
+30. **git init** - Initiera ett nytt Git-repository.
+31. **git clone [URL]** - Klona ett Git-repository från en URL.
+32. **git status** - Visa status för det aktuella Git-repositoryt.
+33. **git add [fil]** - Lägg till en fil i staging-området.
+34. **git commit -m "meddelande"** - Spara ändringar med ett meddelande.
+35. **git push** - Skicka ändringar till det fjärranslutna repositoryt.
+36. **git pull** - Hämta och slå samman ändringar från fjärranslutet repository.
+
+## Sökning:
+37. **grep [sökterm] [fil]** - Sök efter en specifik term i en fil.
+38. **find [katalog] -name [filnamn]** - Hitta en fil i en katalog.
+
+## Komprimering:
+39. **tar -czf [arkivnamn].tar.gz [katalog]** - Skapa en komprimerad tar.gz-fil.
+40. **tar -xzf [arkivnamn].tar.gz** - Extrahera en komprimerad tar.gz-fil.
+

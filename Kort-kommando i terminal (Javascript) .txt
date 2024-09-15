@@ -1,0 +1,45 @@
+
+# Terminalkommandon för JavaScript och VS Code
+
+## Navigering och Filhantering (fungerar även i VS Code):
+1. **cd [katalog]** - Byt till en specifik katalog.
+2. **ls** - Lista filer och mappar i den aktuella katalogen.
+3. **pwd** - Visa den nuvarande katalogens sökväg.
+4. **mkdir [katalognamn]** - Skapa en ny katalog för ditt projekt.
+5. **rm -r [katalognamn]** - Ta bort en katalog och dess innehåll rekursivt.
+6. ** touch [skapa fil]
+
+## Arbeta med Node.js och npm:
+6. **npm init** - Initiera ett nytt Node.js-projekt och skapa en `package.json`-fil.
+7. **npm install [paketnamn]** - Installera ett npm-paket och lägg till det i `node_modules`.
+8. **npm install** - Installera alla beroenden listade i `package.json`.
+9. **npm run [skriptnamn]** - Köra ett skript definierat i `package.json`.
+10. **npm start** - Starta ditt projekt enligt det definierade startskriptet i `package.json`.
+11. **npm test** - Kör tester som är definierade i ditt projekt.
+
+## Git-kommandon för versionskontroll:
+12. **git init** - Initiera ett nytt Git-repository.
+13. **git clone [URL]** - Klona ett Git-repository från en URL.
+14. **git add [fil]** - Lägg till en fil i staging-området.
+15. **git commit -m "meddelande"** - Spara ändringar med ett meddelande.
+16. **git push** - Skicka ändringar till ett fjärranslutet repository.
+17. **git pull** - Hämta och slå samman ändringar från ett fjärranslutet repository.
+
+## JavaScript-utveckling:
+18. **node [filnamn].js** - Köra en JavaScript-fil med Node.js.
+19. **npx [paketnamn]** - Köra ett paket utan att installera det globalt (t.ex. `npx create-react-app` för att skapa en React-applikation).
+
+## Arbeta med VS Code:
+20. **code .** - Öppna den aktuella katalogen i VS Code.
+21. **code [filnamn]** - Öppna en specifik fil i VS Code.
+22. **code --install-extension [extension-namn]** - Installera en VS Code-förlängning direkt från terminalen.
+
+## Debugging och Utvecklingsservrar:
+23. **npm install -g nodemon** - Installera `nodemon` för automatisk omstart av server vid ändringar i koden.
+24. **nodemon [filnamn].js** - Köra en JavaScript-fil med `nodemon`, så att servern startas om automatiskt vid ändringar.
+25. **npx http-server** - Starta en enkel HTTP-server för att servera statiska filer i ett projekt.
+
+## Sökning och felsökning:
+26. **grep [sökterm] [fil]** - Sök efter en specifik term i en fil.
+27. **find [katalog] -name [filnamn]** - Hitta en specifik fil i en katalog.
+
